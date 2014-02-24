@@ -71,64 +71,6 @@ width: 400px;
 }
 /* - //////////////// NAV END/////////////////// - */
 
-/* - //////////////// INDIV PROJ PAGE START /////////////////// - */
-#proj_wrapper {
-margin: auto;
-padding: 10px;
-width: 800px;
-}
-#proj_wrapper p, #proj_wrapper div {
-font-family: 'Helvetica';
-}
-.main_proj_pic_horiz img, .main_proj_pic_vert img {
-float: left;
-display: table-row;
-border: 1px solid black;
-}
-.main_proj_pic_horiz img {
-width: 530px;
-}
-.main_proj_pic_vert img {
-width: 500px;
-}
-.proj_content {
-width: 250px;
-float:right;
-}
-.proj_content h2, #proj_wrapper p {
-margin: 0;
-}
-#see_more_wrapper {
-float: left;
-overflow-x:hidden;
-}
-#see_more {
-padding: 15px;
-margin-left: 300px;
-width: 175px;
-cursor: pointer;
-}
-#more_info {
-display: none;
-}
-.text_desc {
-margin: 10px 0;
-float: left;
-}
-.text_desc img, .main_proj_pic img {
-border: 2px #777 solid;
-border-radius: 4px;
-box-shadow: 1px 4px 4px rgba(100,100,100, .4);
-}
-.text_desc img {
-margin: 10px 30px;
-}
-.photos {
-width: 300px;
-margin-bottom: 20px;
-}
-/* - //////////////// INDIV PROJ PAGE START /////////////////// - */
-
 /* - //////////////// CONTACT PAGE START /////////////////// - */
 #contact {
 	background: url(/assets/pics/contact_bg.png) no-repeat center 0% scroll;
