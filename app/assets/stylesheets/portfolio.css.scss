@@ -1,3 +1,105 @@
 // Place all the styles related to the Portfolio controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$transGray: rgba(0, 0, 0, 0.7);
+$gildaFont: 'Gilda Display', serif;
+/* - //////////////// PORTFOLIO START/////////////////// - */
+#portfolio {
+	background: url(/assets/pics/portfolio_bg.png) no-repeat center 0% scroll;
+	.portfolio_cont {
+		width: 60em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 4em;
+		#prof_btn, #ldt_btn, #mp3_btn {
+			margin-top: 2em;
+		}
+		#prof_btn {
+			background: url(/assets/pics/portfolio_btns/prof2.png) no-repeat center 0% scroll;
+			p {
+				display: none;
+			}
+		}
+		#prof_btn:hover {
+			background: url(/assets/pics/portfolio_btns/prof.png) no-repeat center 0% scroll;
+			//-webkit-filter: contrast(0.75);
+		}
+		#ldt_btn {
+			background: url(/assets/pics/portfolio_btns/ldt_btn.png) no-repeat center 0% scroll;
+		}
+		#ldt_btn:hover {
+			background: url(/assets/pics/portfolio_btns/ldt_btn2.png) no-repeat center 0% scroll;
+			//-webkit-filter: contrast(0.85);
+		}
+		#mp3_btn {
+			background: url(/assets/pics/portfolio_btns/pooh2.png) no-repeat center 0% scroll;
+		}
+		#mp3_btn:hover {
+			background: url(/assets/pics/portfolio_btns/pooh.png) no-repeat center 0% scroll;
+			//-webkit-filter: contrast(0.75);
+		}
+		#mobileUI_btn {
+			background: url(/assets/pics/portfolio_btns/mobileUI2.png) no-repeat center 0% scroll;
+		}
+		#mobileUI_btn:hover {
+			background: url(/assets/pics/portfolio_btns/mobileUI.png) no-repeat center 0% scroll;
+		}
+		#fun_btn {
+			background: url(/assets/pics/portfolio_btns/fun_btn2.png) no-repeat center 0% scroll;
+		}
+		#fun_btn:hover {
+			background: url(/assets/pics/portfolio_btns/fun_btn.png) no-repeat center 0% scroll;
+			//-webkit-filter: contrast(0.75);
+		}
+		.portfolio_text, .portfolio_btn {
+			margin: 2em;
+			width: 15em;
+			height: 15em;
+			float: left;
+		}
+		.portfolio_text p{
+			margin-top: 3em;;
+			font-size: 24px;
+			font-family: $gildaFont;
+			color: $transGray;
+		}
+		.portfolio_btn {
+			background: white;
+			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+			.portfolio_btn_label {
+				display:none;
+			}
+		}
+		.portfolio_btn:hover {
+			box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.6);
+			.portfolio_btn_label {
+				margin: 6em auto 0 auto;
+				display:block;
+				width:11.5em;
+				font: 20px/28px $gildaFont;
+				background: rgba(60,34,141, 0.8);
+				color: white;
+				padding: 0.25em;
+				text-align: center;
+			}
+		}
+	}
+	.goldfish_small, #goldfish_big {
+		position: relative;
+	}
+	#goldfish_small1 {
+		width: 9em;
+		top: -26em;
+		left: 11em;
+	}
+	#goldfish_small2 {
+		width: 6em;
+		top: -27em;
+		left: 17em;
+	}
+	#goldfish_big {
+		top: -22em;
+		left: 23em;
+	}
+}
+/* - //////////////// PORTFOLIO END/////////////////// - */

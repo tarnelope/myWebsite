@@ -1,5 +1,6 @@
+$transGray: rgba(0, 0, 0, 0.7);
+$gildaFont: 'Gilda Display', serif;
 * {
-font-family:'CaviarDreams', Arial, sans-serif;
 
 }
 #main, #about {
@@ -21,8 +22,10 @@ font-family:'CaviarDreams', Arial, sans-serif;
 
 /* - //////////////// HEADER START/////////////////// - */
 header {
+	font-family:'CaviarDreams', Arial, sans-serif;
 	font-size: 40px;
-	top: 0.333em;
+	top: 0;
+	padding-top: 0.333em;
 	position: fixed;
 	background-color: white;
 	z-index: 999;
@@ -67,179 +70,6 @@ width: 400px;
 	}
 }
 /* - //////////////// NAV END/////////////////// - */
-
-
-/* - //////////////// HOME START /////////////////// - */
-#home_content {
-position: absolute;
-margin-top: 100px;
-background: url(/assets/pics/bg_bars.png) no-repeat center center;
-}
-#big_me {
-padding-top: 20px;
-width: 550px;
-display: block;
--webkit-transition: -webkit-transform 1s ease-in;
--webkit-transform: rotate(10deg)
-}
-#big_me:hover,#big_me:focus,#big_me:active {
--webkit-transform: rotate(-10deg);
-} 
-/* - //////////////// HOME END /////////////////// - */
-
-
-/* - //////////////// PANEL START/////////////////// - */
-#panel_and_me {
-width: 960px;
-margin-left: auto;
-margin-right: auto;
-}
-.panel {
-float: left;
-margin-top: 90px;
-margin-left: 20px;
-background: #FFFFFF;
-height: auto;
-width: 450px;
-padding: 10px 30px 10px 30px;
-opacity: 0.85;
-filter: alpha(opacity=85);
-    -moz-box-shadow: 0 0 25px 5px #888;
-	-webkit-box-shadow: 0 0 25px 5px #888;
-	box-shadow: 0 0 25px 5px #888;
-	
-	h1 {
-	font-size: 36px;
-	}
-	
-	a:link, a:visited {
-	font-weight: bold;
-	color: black;
-	}
-	
-	.link:hover {
-	font-size: 28px;
-	text-shadow: 1px 1px 1px #444; 
-	}
-}
-/* - //////////////// PANEL END/////////////////// - */
-
-
-/* - //////////////// ABOUT START/////////////////// - */
-#about {
-background: url(/assets/pics/about_bg1.png) no-repeat center 0% scroll;
-opacity: .85;
-filter: alpha(opacity=85);
-}
-#about_content {
-font: 20px/26px 'ColaborateRegular', Arial, sans-serif;/*20px 'CaviarDreams', Arial, sans-serif;*/
-padding: 2.5em;
-}
-#connect_bar {
-	display: flex;
-	line-height: 2.8em;
-}
-#social_icons {
-	padding-left: 15px;
-}
-#social_icons li{
-	list-style: none;
-	height: 56px;
-	float: left;
-}
-#li_icon {
-	background: url(/assets/pics/icons/linkedin_icon.png);
-}
-#gmail_icon {
-	background: url(/assets/pics/icons/gmail_icon.png);
-}
-#github_icon {
-	background: url(/assets/pics/icons/github_icon.png);
-}
-.social_icon {
-	display: block;
-	float: left;
-	width: 56px;
-	margin-right: 15px;
-	height: 100%;
-	background-repeat: no-repeat;
-    -moz-box-shadow: 0 0 3px 3px #888;
-	-webkit-box-shadow: 0 0 3px 3px #888;
-	box-shadow: 0 0 3px 3px #888;
-}
-.social_icon:hover {
-	box-shadow: none;
-}
-.social_icon:active {
-	
-}
-#about_trig {
-opacity: 115;
-filter: alpha(opacity=115);
-height: 600px;
-text-decoration: none;
-font-size: 16px;
-/*display: block;
-background: url(../pics/about_me2.png) no-repeat;
-background-size: 400px;*/
-z-index: 20;
-}
-#about_me {
-margin-top: 189px;
-margin-right:30px;
-width: 350px;
-float: right;
-}
-
-/* #about_me:hover {
-width: 360px;
-cursor: pointer;
-}
-
-#about_me:active {
-width: 340px;
-} */
-/* - //////////////// ABOUT END/////////////////// - */
-
-/* - //////////////// PORTFOLIO START/////////////////// - */
-#portfolio {
-	background: url(/assets/pics/portfolio_bg.png) no-repeat center 0% scroll;
-	.portfolio_cont {
-		width: 60em;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 8em;
-		.portfolio_btn {
-			background: white;
-			box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
-			margin: 2em;
-			width: 15em;
-			height: 10em;
-			float: left;
-		}
-	}
-	#goldfish {
-		position: absolute;
-		top: 20em;
-		left: 10em;
-	}
-}
-/* - //////////////// PORTFOLIO END/////////////////// - */
-
-/* - //////////////// POPUP FRAME START /////////////////// - */
-.tbox {position:absolute; display:none; padding:14px 17px; z-index:900}
-.tinner {padding:15px; -moz-border-radius:5px; border-radius:5px; background:#fff url(../pics/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333}
-.tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
-.tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background:url(../pics/close.png) no-repeat}
-.tclose:hover {background-position:0 -30px}
-
-#error {background:#ff6969; color:#fff; text-shadow:1px 1px #cf5454; border-right:1px solid #000; border-bottom:1px solid #000; padding:0}
-#error .tcontent {padding:10px 14px 11px; border:1px solid #ffb8b8; -moz-border-radius:5px; border-radius:5px}
-#success {background:#2ea125; color:#fff; text-shadow:1px 1px #1b6116; border-right:1px solid #000; border-bottom:1px solid #000; padding:10; -moz-border-radius:0; border-radius:0}
-#bluemask {background:#000}
-#frameless {padding:0}
-#frameless .tclose {left:6px}
-/* - //////////////// POPUP FRAME END /////////////////// - */
 
 /* - //////////////// INDIV PROJ PAGE START /////////////////// - */
 #proj_wrapper {
@@ -315,20 +145,23 @@ margin-bottom: 20px;
 		width: 15em;
 	}
 }
-
+#contact_cont {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+}
 #contact_pigeon {
-	position: absolute;
-	top: 21em;
-	left: 9em;
+	margin-top: 21em;
+	float: left;
 }
 #contact_form {
-	font: 20px/26px 'ColaborateRegular', Arial, sans-serif;
-	color: rgba(0, 0, 0, 0.7);
+	font: 20px/26px $gildaFont;
+	color: $transGray;
 	padding: 1em;
 	background: white;
-	position: absolute;
-	top: 8em;
-	left: 23.75em;
+	float: right;
+	margin-top: 8em;
+	margin-right: 4.15em;
 	border: 3px dashed rgba(0, 0, 0, 0.4);
 	#contactFormTitle {
 		display: inline-block;	
@@ -349,10 +182,12 @@ margin-bottom: 20px;
 		width: 36em;
 	}
 	#contactFormBtn {
+		font-family: $gildaFont ;
 		float: right;
 		margin-right: 0.69em;
 		background: #FFCC00;
-		width: 14em;		
+		width: 15em;	
+		font-size: 1em;	
 		border: none;
 		padding: 3px;
 		-webkit-appearance: none;
@@ -360,6 +195,4 @@ margin-bottom: 20px;
 	}
 	
 }
-
-
 /* - //////////////// CONTACT PAGE START /////////////////// - */
