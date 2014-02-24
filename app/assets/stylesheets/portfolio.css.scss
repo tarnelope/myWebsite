@@ -4,13 +4,15 @@
 $transGray: rgba(0, 0, 0, 0.7);
 $gildaFont: 'Gilda Display', serif;
 /* - //////////////// PORTFOLIO START/////////////////// - */
-#portfolio {
+.portfolio {
 	background: url(/assets/pics/portfolio_bg.png) no-repeat center 0% scroll;
+	width: 60em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+	font-family: $gildaFont;
+}
 	.portfolio_cont {
-		width: 60em;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 4em;
 		#prof_btn, #ldt_btn, #mp3_btn {
 			margin-top: 2em;
 		}
@@ -60,7 +62,6 @@ $gildaFont: 'Gilda Display', serif;
 		.portfolio_text p{
 			margin-top: 3em;;
 			font-size: 24px;
-			font-family: $gildaFont;
 			color: $transGray;
 		}
 		.portfolio_btn {
@@ -101,5 +102,33 @@ $gildaFont: 'Gilda Display', serif;
 		top: -22em;
 		left: 23em;
 	}
-}
 /* - //////////////// PORTFOLIO END/////////////////// - */
+.project {
+	margin-top: 7em;
+	padding-left: 4em;
+	padding-right: 4em;
+	height: 33em;
+	overflow: scroll;
+	h1 {
+		font-size: 42px/24px;
+	}
+	.ui_group {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#page-2, #page-3 {
+		display: none;
+	}
+}
+.page_num {
+	font-size: 20px;	
+	width: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	
+	div a {
+		text-decoration: none;
+		float: left;
+		margin-left: 1.85em;
+	}
+}
