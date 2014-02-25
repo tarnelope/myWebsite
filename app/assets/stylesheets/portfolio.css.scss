@@ -107,25 +107,60 @@ $gildaFont: 'Gilda Display', serif;
 	margin-top: 7em;
 	padding-left: 4em;
 	padding-right: 4em;
-	height: 33em;
+	height: 34em;
 	overflow: scroll;
+
 	h1 {
 		font-size: 42px/24px;
+		float: left;
+		width: 36em;
 	}
 	.ui_group {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#page-2, #page-3 {
+	.page-2, .page-3 {
 		display: none;
+	}
+	#climb_app {
+		margin-left: 6.333em;
+	}
+	.proj_desc{
+		margin: auto;
+		width: 100%;
+	}
+	.company_logo {
+		float:left;
+		margin-right: 1em;
+	}
+	.poster_thumb {
+		width: 30em;
+		margin-left: 12em;
+		margin-bottom: 2em;
+	}
+	.proj_thumb {
+		height: 10.9em;
+		margin:1em;
+		float: left;
+		border: 2px solid $transGray;
+	}
+	hr {
+		border: 3px dashed; 
+		color: rgba(0, 0, 0, 0.3);
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	#sheClimbsBadge {
+		display: block;
+	}
+	#adobe_desc p {
+		padding-top: 1.75em;
 	}
 }
 .page_num {
 	font-size: 20px;	
-	width: 10em;
-	margin-left: auto;
-	margin-right: auto;
-	
+	float: right;
+	width: 9em;
 	div a {
 		text-decoration: none;
 		float: left;

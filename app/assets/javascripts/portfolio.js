@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
 		 var slideNum = parseInt(/page_link-(\d+)/.exec(s)[1], 10);
 		 
 		 $('.active_page').toggleClass('active_page').hide();
-		 $('#page-'+slideNum).toggleClass('active_page').show();
+		 $('.page-'+slideNum).toggleClass('active_page').show();
 		 
 	 })
 

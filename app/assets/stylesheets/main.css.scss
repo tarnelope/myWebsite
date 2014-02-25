@@ -1,7 +1,7 @@
 $transGray: rgba(0, 0, 0, 0.7);
 $gildaFont: 'Gilda Display', serif;
 * {
-
+	
 }
 #main, #about {
 	height: 50em;
@@ -15,11 +15,14 @@ $gildaFont: 'Gilda Display', serif;
 	width: 100%;
 }
 
-.header_cont, #home_content, #big_me, .proj_content{
+.header_cont, #home_content, #big_me, .proj_content, .image, #sheClimbsBadge{
 	margin-right: auto;
 	margin-left: auto;
 }
-
+.image {
+	border: 3px solid gray;
+	display: block;
+}
 /* - //////////////// HEADER START/////////////////// - */
 header {
 	font-family:'CaviarDreams', Arial, sans-serif;
@@ -135,6 +138,5 @@ width: 400px;
 		-webkit-appearance: none;
 		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 	}
-	
 }
 /* - //////////////// CONTACT PAGE START /////////////////// - */

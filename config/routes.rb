@@ -3,6 +3,8 @@ MyPortfolio::Application.routes.draw do
   get "about" => 'me#about'
   get "portfolio" => 'portfolio#index'
   get "mobileUI" => 'portfolio#mobileUI'
+  get "fun" => 'portfolio#fun'
+  get "professional_experience" => 'portfolio#profExp'
   resources "contacts", only: [:index, :create]
   
   # The priority is based upon order of creation: first created -> highest priority.
