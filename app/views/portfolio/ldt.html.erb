@@ -1,0 +1,40 @@
+<article class="portfolio">
+	<div class="project">
+		<h1>Learning Design & Technology Projects <%= render 'portfolio/pageNum'%></h1>
+		
+		<div class="ldt_experience" id="fClass">
+			<div class="ldt_desc" id="fClass_desc">
+				<%= image_tag '/assets/ldt/firstclass.gif', :class => "company_logo" %>
+			<h3>First Class Interactive Airport Window</h3>
+			<p>This was my independent final project for the Master's program.</p>
+			</div>
+			
+			<div class="ldt_desc_body">
+			<%= link_to image_tag('/assets/ldt/FCGirl.png', :class => "poster_thumb"), '/assets/posters/adobe_poster.png'%> </br>
+			<u>Problem: </u>While ample rich learning opportunities exist in airports, travelers are not encouraged to take advantage of them, even when facing hours of bordom.</br>
+<u>Approach: </u>Over 12-weeks, I...
+</div>
+	<ul>
+	<li>Explored different rich, accessible learning spaces that were usually not taken advantage of.</li>
+	<li>Conducted both primary and secondary research to determine what content should be delivered and how. 
+</li>
+	<li>Designed UI and interactions for the interactive window.</li>
+	<li>Built prototypes of various resolutions and tested them on users to gather feedback for effective refinement.</li>
+</ul>
+
+<u>Result:</u> A fully interactive Flash prototype and physical airport window environment that conveyed some of the content and interaction testers found most appealing.
+</br>
+<u>My Role:</u> Independently drove the project from initial research to high-res UI implementation. Received great guidance from various professors and industry experts.
+</br>
+<u>Tools Used:</u> Illustrator. Photoshop. Flash. Lots and lots of black tea.</br>
+<u>Website Link:</u> <%= link_to "First Class", 'http://ldtprojects.stanford.edu/~ttarn/firstclass/firstclass.html' %>
+</br>
+<%= link_to image_tag('/assets/posters/fc_poster.png', :class => "poster_thumb"), '/assets/posters/fc_poster.png'%> </br>
+</div>
+		</div><!-- End #adobe -->		
+		
+		
+		
+		
+	</div>
+</article>
